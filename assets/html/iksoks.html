@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet"
+		type="text/css" href="/assets/css/iksoks.css">
+
+</head>
+
+<body>
+	<div id="main">
+		<h1>IKS OKS</h1>
+
+		
+		<p id="info">Prvo počinje
+			<b>igrač X</b>
+		</p>
+
+
+		<br><br>
+		<input type="text" id="polje1" onclick=
+			"prvoPolje(); iksoks();" readonly>
+
+		<input type="text" id="polje2" onclick=
+			"drugoPolje(); iksoks();" readonly>
+
+		<input type="text" id="polje3" onclick=
+			"trecePolje(); iksoks();" readonly>
+		<br><br>
+
+		<input type="text" id="polje4" onclick=
+			"cetvrtoPolje(); iksoks();" readonly>
+			
+		<input type="text" id="polje5" onclick=
+			"petoPolje(); iksoks();" readonly>
+
+		<input type="text" id="polje6" onclick=
+			"sestoPolje(); iksoks();" readonly>
+		<br><br>
+
+		<input type="text" id="polje7" onclick=
+			"sedmoPolje(); iksoks();" readonly>
+
+		<input type="text" id="polje8" onclick=
+			"osmoPolje();iksoks();" readonly>
+
+		<input type="text" id="polje9" onclick=
+			"devetoPolje();iksoks();" readonly>
+
+
+		<br><br><br>
+
+		<button id="restart" onclick="restart()">
+			Restart
+		</button>
+
+		<br><br>
+
+		<p id="result"></p>
+
+
+
+
+	</div>
+
+    <script src="/assets/js/iksoks.js"></script>
+</body>
+
+</html>
